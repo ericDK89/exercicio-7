@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  max-width: 300px;
+  width: 100%;
+
+  margin: 0 auto;
+}
+
+button {
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+p {
+  display: none;
+}
+
+.success,
+.error {
+  display: block;
+  padding: 0.75rem 0.5rem;
+  border-radius: 6px;
+}
+
+.success {
+  color: white;
+  background-color: blue;
+}
+
+.error {
+  color: white;
+  background-color: red;
+}
